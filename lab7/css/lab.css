@@ -1,0 +1,41 @@
+body { 
+  background-color: black;
+}
+
+img {
+    position: absolute;
+    left: 850px;
+    width: 40%;
+    height: auto;
+}
+
+h1 {text-align: center;}
+
+.head {
+color: white;
+font-family: Futura PT, sans-serif;
+font-weight: bolder;
+font-size: 80px;
+}
+
+h2, h3, h4, h5 {
+  color: white;
+  font-family: Futura PT, sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+h5 {
+  text-decoration: underline;
+  text-decoration-color:lightblue;
+  text-align: center;
+}
+
+p {
+  color: pink;
+  font-family: Futura PT, sans-serif;
+  font-weight:normal;
+  font-size: 30px;
+  max-width: 800px;
+  text-align: left;
+}
