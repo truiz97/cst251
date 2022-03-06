@@ -18,14 +18,14 @@ font-weight: bolder;
 font-size: 80px;
 }
 
-div.Challenges {
+.Challenges {
   color: white;
   font-family: Futura PT, sans-serif;
   font-weight: bolder;
   font-size: 40px;
 }
 
-div#Problems {
+#Problems {
   color: white;
   font-family: Futura PT, sans-serif;
   font-weight: bolder;

@@ -1,0 +1,87 @@
+body {
+  background-color: #90D2B5;
+}
+
+img {
+  position: absolute;
+  left: 480px;
+  width: 66%;
+  height: auto;
+  top: 295px;
+}
+
+div.pic{
+  padding: 20px;
+  width: 200px;
+  margin: 50px;
+  box-sizing: border-box;
+}
+.head {
+color: #0050B6;
+font-family: Futura PT, sans-serif;
+font-weight: bolder;
+font-size: 80px;
+margin: 50px;
+}
+
+div.Challenges {
+  color: #90D2B5;
+  font-family: Futura PT, sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  background-color: #0050B6;
+  padding: 20px;
+  width: 400px;
+  box-sizing: border-box;
+  margin: 50px;
+}
+
+div.Problems {
+  color: #90D2B5;
+  font-family: Futura PT, sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  background-color: #0050B6;
+  padding: 20px;
+  width: 400px;
+  box-sizing: border-box;
+  margin: 50px;
+}
+
+div.Results {
+  color: #90D2B5;
+  font-family: Futura PT, sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  background-color: #0050B6;
+  padding: 20px;
+  width: 400px;
+  box-sizing: border-box;
+  margin: 50px;
+
+}
+
+div.link {
+  font-family: Futura PT, sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  color: #0050B6;
+  border-style: solid;
+  border-width: 4px;
+	border-color: #0050B6;
+  margin: 50px;
+  box-sizing: border-box;
+  width: 400px;
+  padding-left: 20px;
+
+}
+
+p {
+  color: #0050B6;
+  font-family: Futura PT, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  background-color: #90D2B5;
+  box-sizing: border-box;
+  padding: 20px;
+}
