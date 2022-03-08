@@ -1,0 +1,81 @@
+body {
+  background-color: #FFF6FA;
+}
+
+img {
+  position: absolute;
+  left: 480px;
+  width: 66%;
+  height: auto;
+  top: 295px;
+}
+
+div.pic{
+  padding: 20px;
+  width: 200px;
+  margin: 50px;
+  box-sizing: border-box;
+}
+.head {
+color: #916E93;
+font-family: "Baskerville";
+font-weight: bolder;
+font-size: 100px;
+margin: 50px;
+}
+
+div.Challenges {
+  color: #FF85B5;
+  font-family: "Baskerville";
+  font-weight: bolder;
+  font-size: 40px;
+  padding: 20px;
+  width: 400px;
+  box-sizing: border-box;
+  margin: 50px;
+}
+
+div.Problems {
+  color: #FF909E;
+  font-family: "Baskerville";
+  font-weight: bolder;
+  font-size: 40px;
+  padding: 20px;
+  width: 400px;
+  box-sizing: border-box;
+  margin: 50px;
+}
+
+div.Results {
+  color: #FFA486;
+  font-family: "Baskerville";
+  font-weight: bolder;
+  font-size: 40px;
+  padding: 20px;
+  width: 400px;
+  box-sizing: border-box;
+  margin: 50px;
+}
+
+div.link {
+  color: #7887D7;
+  font-family: "Baskerville";
+  font-weight: bolder;
+  font-size: 40px;
+  padding: 20px;
+  width: 400px;
+  box-sizing: border-box;
+  margin: 50px;
+}
+
+p {
+  color: #FFF6FA;
+  font-family: "Baskerville";
+  font-weight: normal;
+  font-size: 20px;
+  background-color: #7887D7;
+  box-sizing: border-box;
+  padding: 20px;
+  letter-spacing: 6px;
+  text-decoration: line-through;
+}
