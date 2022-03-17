@@ -1,0 +1,152 @@
+body {
+  background-color: #90D2B5;
+}
+
+ul {
+  border-style: solid;
+  border-width: 4px;
+	border-color: #0050B6;
+  box-sizing: content-box;
+  width: 230px;
+}
+
+#Navbar {
+  font-family: Futura PT, sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+  position: absolute;
+  left: 600px;
+}
+
+#Navbar li {
+	display:block;
+	width:65px;
+	float:left;
+  padding: 3px;
+
+}
+
+
+/* visited link */
+a:visited {
+  color: #0050B6;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+h1 {
+color: #0050B6;
+font-family: Futura PT, sans-serif;
+font-weight: bolder;
+font-size: 50px;
+position: absolute;
+bottom: 550px;
+text-align: center;
+left: 200px
+}
+
+h2 {
+  margin: 0;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+
+h3 {
+  margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+h4 {
+  margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, 75%);
+}
+
+h5 {
+  margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+#floated {
+  color: #0050B6;
+  font-family: Futura PT, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  width: 30%;
+  border-style: solid;
+  border-width: 4px;
+	border-color: #0050B6;
+  box-sizing: content-box;
+  padding: 5px;
+  float: right;
+  clear: right;
+}
+
+#center-horz{
+  color: #0050B6;
+  font-family: Futura PT, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  width: 30%;
+  border-style: solid;
+  border-width: 4px;
+	border-color: #0050B6;
+  box-sizing: content-box;
+  padding: 5px;
+  text-align: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 2px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0050B6;
+  border-radius: 10px;
+}
+
+div#center-img img {
+	width: 150px;
+	height: auto;
+}
+
+div#center-both img {
+	width: 150px;
+	height: auto;
+}
