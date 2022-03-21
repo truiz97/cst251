@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../img/bridge.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+img {
+  position: absolute;
+  width: 7%;
+  height: auto;
+  top: 800px;
+  padding-left: 34px;
+}
+
+#main {
+  color: white;
+  font-family: Mundial, sans-serif;
+  font-weight: black;
+  font-size: 200px;
+  position: absolute;
+  top: 800px;
+  left: 0px;
+  text-align: justify left;
+  letter-spacing: 1px;
+  line-height: .8;
+  word-wrap: break-word;
+  padding-left: 900px;
+}
+
+#sub {
+  color: white;
+  font-family: Mundial, sans-serif;
+  font-weight: bold;
+  font-size: 65px;
+  position: absolute;
+  top: 2850px;
+  left: 0px;
+  text-align: justify left;
+  letter-spacing: 1px;
+  line-height: .8;
+  word-wrap: break-word;
+  padding-left: 900px;
+}
+
+h1 span {
+  text-decoration: underline;
+  text-decoration-thickness: 14px;
+  text-underline-offset: 15px;
+}
