@@ -63,7 +63,7 @@ span:link {
 a {
   font-family: Futura PT, sans-serif;
   font-weight: bolder;
-  font-size: 100px;
+  font-size: 20px;
 	width:25px;
 	float: none;
 
@@ -75,7 +75,7 @@ p{
     border-width: 10px;
     border-color: white;
     box-sizing: content-box;
-    width: 780px;
+    width: 20px;
     padding: 20px;
 }
 
@@ -95,7 +95,7 @@ body {
   color: white;
   font-family: Mundial, sans-serif;
   font-weight: white;
-  font-size: 150px;
+  font-size: 20px;
   position: absolute;
   top: 800px;
   left: 0px;
@@ -103,7 +103,7 @@ body {
   letter-spacing: 1px;
   line-height: .8;
   word-wrap: break-word;
-  padding-left: 900px;
+  padding: 400px;
 }
 
 h1 span {
