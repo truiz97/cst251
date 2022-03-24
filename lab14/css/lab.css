@@ -53,37 +53,34 @@ a {
   font-weight: bolder;
   font-size: 20px;
 	width:25px;
+  text-decoration: none;
+  color: white;
 }
 
 /* visited link */
-li :visited {
+li:visited {
   color: white;
 }
 
 /* mouse over link */
-li :hover {
+li:hover {
   color: grey;
   opacity: .45
 }
 
 /* selected link */
-li :active {
+li:active {
   color: white;
 }
 
-li :visited {
+li:visited {
   text-decoration: none;
 }
 
-li :hover {
+li:hover {
   text-decoration: none;
 }
 
-li :link {
+li:link {
   text-decoration: none;
-}
-
-/* visited link */
-li :visited {
-  color: white;
 }
