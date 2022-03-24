@@ -10,11 +10,6 @@ body {
   background-attachment: fixed;
 }
 
-h1, h2, h3 {
-  color: white;
-  font-family: Mundial, sans-serif;
-  font-weight: white;
-}
 
 img {
    position: relative;
@@ -26,9 +21,9 @@ h4 img {
    top: 35%;
    left: 50%;
    transform: translate(-50%, -50%);
-  width: 90%;
-  height:auto;
-  padding: 40px;
+   width: 90%;
+   height:auto;
+   padding: 40px;
 }
 
 h5 img {
@@ -36,4 +31,70 @@ h5 img {
     height:auto;
     margin-left:10px;
     margin-top: -30px;
+}
+
+h6 img {
+    margin: 0;
+   position: absolute;
+   bottom: -8%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 8%;
+   height:auto;
+   padding: 40px;
+}
+
+#jetting {
+      font-family: Mundial, sans-serif;
+      font-weight: 500;
+      color: black;
+      font-size: 20px;
+      margin: 0;
+      position: absolute;
+      top: 53%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+   }
+
+#jetting span {
+  text-align:center
+}
+
+#getting {
+      font-family: Mundial, sans-serif;
+      font-weight: 550;
+      font-variant: small-caps;
+      color: black;
+      font-size: 18px;
+      margin: 0;
+      position: absolute;
+      top: 62%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+   }
+
+#getting span {
+  border-style:solid;
+  padding-top:6px;
+  padding-bottom:9px;
+  padding-left: 52px;
+  padding-right: 52px;
+  border-width: 2px;
+  border-radius: 25px;
+}
+
+#hi-type {
+      font-family: Mundial, sans-serif;
+      font-weight: bold;
+      color: black;
+      font-size: 18px;
+      margin: 0;
+      position: absolute;
+      bottom: 6%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
+
+#hi-type span {
+      color: white;
 }
