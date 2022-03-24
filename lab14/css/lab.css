@@ -1,78 +1,9 @@
-/* visited link */
-a:visited {
-  color: white;
-}
-
-/* mouse over link */
-a:hover {
-  color: grey;
-  opacity: .45
-}
-
-/* selected link */
-a:active {
-  color: white;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-/* visited link */
-span:visited {
-  color: white;
-}
-
-/* mouse over link */
-span:hover {
-  color: grey;
-  opacity: .45
-}
-
-/* selected link */
-span:active {
-  color: white;
-}
-
-span:visited {
-  text-decoration: none;
-}
-
-span:hover {
-  text-decoration: none;
-}
-
-span:link {
-  text-decoration: none;
-}
-
-#nav {
-  padding-left: 10px;
-  padding-top: 10px;
-
-}
-
-a {
-  font-family: Futura PT, sans-serif;
-  font-weight: bolder;
-  font-size: 20px;
-	width:25px;
-	float: none;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background-image: url("../img/background.png");
   height: 100vh;
@@ -84,24 +15,74 @@ body {
   color: white;
   font-family: Mundial, sans-serif;
   font-weight: white;
-  font-size: 20px;
+  font-size: 40px;
   position: absolute;
-  top: 5px;
+  top: 50px;
   left: 0px;
   text-align: justify left;
   letter-spacing: 1px;
   line-height: .8;
   word-wrap: break-word;
-  padding: 80px;
+  padding: 140px;
 }
 
 h1 span {
   opacity: .45;
 }
 
-iframe#fake {
-    width: 800px;
-    height: 500px;
-    resize: both;
-    overflow: hidden;
+#navbar {
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+
+#nav {
+  flex: 1;
+  text-align: right;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+a {
+  font-family: Futura PT, sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+	width:25px;
+}
+
+/* visited link */
+li :visited {
+  color: white;
+}
+
+/* mouse over link */
+li :hover {
+  color: grey;
+  opacity: .45
+}
+
+/* selected link */
+li :active {
+  color: white;
+}
+
+li :visited {
+  text-decoration: none;
+}
+
+li :hover {
+  text-decoration: none;
+}
+
+li :link {
+  text-decoration: none;
+}
+
+/* visited link */
+li :visited {
+  color: white;
 }
