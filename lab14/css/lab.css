@@ -97,13 +97,13 @@ body {
   font-weight: white;
   font-size: 20px;
   position: absolute;
-  top: 800px;
+  top: 5px;
   left: 0px;
   text-align: justify left;
   letter-spacing: 1px;
   line-height: .8;
   word-wrap: break-word;
-  padding: 400px;
+  padding: 80px;
 }
 
 h1 span {
