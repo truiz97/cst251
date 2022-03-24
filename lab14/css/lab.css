@@ -55,8 +55,8 @@ span:link {
 }
 
 #nav {
-  padding-left: 2500px;
-  padding-top: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
 
 }
 
@@ -66,17 +66,6 @@ a {
   font-size: 20px;
 	width:25px;
 	float: none;
-
-}
-
-p{
-    word-spacing: 100px;
-    border-style: solid;
-    border-width: 10px;
-    border-color: white;
-    box-sizing: content-box;
-    width: 20px;
-    padding: 20px;
 }
 
 * {
