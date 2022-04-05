@@ -1,0 +1,112 @@
+h1 span {
+  opacity: .45;
+}
+#main {
+  color: #9198e5;
+  font-family: Mundial, sans-serif;
+  font-weight: white;
+  font-size: 55px;
+  position: absolute;
+  top: 5px;
+  left: 200px;
+  text-align: justify left;
+  letter-spacing: 1px;
+  line-height: .8;
+  word-wrap: break-word;
+  padding: 50px;
+  text-shadow: 1px 1px 10px #9198e5;
+
+}
+#navbar {
+  height: 12%;
+  display: flex;
+  align-items: center;
+  padding-left: 550px;
+}
+#nav {
+  flex: 1;
+  text-align: right;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+a {
+  font-family: Futura PT, sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+	width:25px;
+  text-decoration: none;
+  color: #9198e5;
+  box-shadow: 3px 3px 5px #9198e5;
+  border-radius: 5px;
+  padding: 10px;
+  opacity: 100%;
+}
+html {
+    height: 100%;
+}
+/* The animation code */
+@keyframes example {
+  0%   {background: radial-gradient(#e66465, #9198e5);}
+  100% {background: radial-gradient(#9198e5, #e66465);}
+}
+body {
+  background: radial-gradient(#e66465, #9198e5);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation-name: example;
+  animation-duration: .2s;
+  animation-iteration-count: infinite;
+}
+h2 img {
+ position: absolute;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 120%;
+ height:auto;
+ filter: opacity(15%);
+ filter: grayscale(100%)
+ object-fit: cover;
+}
+h3 {
+  color: #9198e5;
+  font-family: Mundial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  position: absolute;
+  top: 300px;
+  right: 15px;
+  text-align: justify left;
+  letter-spacing: 1px;
+  line-height: .8;
+  word-wrap: break-word;
+  padding: 140px;
+  text-shadow: 1px 1px 4px #9198e5;
+  column-count: 4;
+}
+/* visited link */
+li:visited {
+  color: white;
+}
+/* mouse over link */
+li:hover {
+  color: white;
+  opacity: .45
+}
+/* selected link */
+li:active {
+  color: white;
+}
+li:visited {
+  text-decoration: none;
+}
+li:hover {
+  text-decoration: none;
+}
+li:link {
+  text-decoration: none;
+}
