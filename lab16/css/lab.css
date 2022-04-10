@@ -97,14 +97,14 @@ li:hover {
   color: white;
   opacity: .45
 }
+li:hover {
+  text-decoration: none;
+}
 /* selected link */
 li:active {
   color: white;
 }
 li:visited {
-  text-decoration: none;
-}
-li:hover {
   text-decoration: none;
 }
 li:link {
